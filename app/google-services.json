@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640706103348",
+    "project_id": "cbcs-amity",
+    "storage_bucket": "cbcs-amity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640706103348:android:3387848ede808d7609e261",
+        "android_client_info": {
+          "package_name": "com.example.cbcs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPbdahXWmskvZFrJeVnD9L6jfiT5ysloQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
