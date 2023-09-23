@@ -7,9 +7,4 @@
 
     <style name="Theme.CBCS" parent="Base.Theme.CBCS" />
 
-    <style name="Theme.MyApp.SplashScreen" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/white</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/amity_logo</item>
-        <item name="postSplashScreenTheme">@style/Theme.CBCS</item>
-    </style>
 </resources>
