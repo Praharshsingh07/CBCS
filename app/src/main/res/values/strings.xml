@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">CBCS</string>
     <string name="submit">Submit</string>
+    <string name="your_enrollment_number">Your Enrollment Number</string>
+    <string name="your_course">Your Course</string>
+    <string name="your_department">Your Department</string>
+    <string name="your_name">Your Name</string>
+    <string name="amity_logo">Amity logo</string>
+    <string name="your_subject_for_cbcs">Your Subject for CBCS</string>
+    <string name="enter_email_id">Enter Email-id</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="please_contact_your_department_for_your_credentials">Please Contact Your Department For Your Credentials</string>
+    <string name="amity_login_logo">Amity_login_logo</string>
+    <string name="login">Login</string>
 </resources>
