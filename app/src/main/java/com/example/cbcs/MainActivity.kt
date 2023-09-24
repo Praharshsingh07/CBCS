@@ -22,6 +22,11 @@ class MainActivity : AppCompatActivity() {
         binding.loginbtn.setOnClickListener {
             val email=binding.editTxtEmailAddress.text.toString()
             val password=binding.editTxtPassword.text.toString()
+
+            if(email.isBlank() || password.isBlank()){
+                Toast.makeText(this,"Please fill Details Properly",Toast.LENGTH_SHORT).show()
+            }
+
             if (email.isNotEmpty()&&password.isNotEmpty()){
                 firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener {
                     if (it.isSuccessful){
@@ -32,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }else{
-                Toast.makeText(this,"Feilds can't be empty",Toast.LENGTH_LONG).show()
+                Toast.makeText(this,"Please fill Details Properly",Toast.LENGTH_LONG).show()
             }
         }
 
