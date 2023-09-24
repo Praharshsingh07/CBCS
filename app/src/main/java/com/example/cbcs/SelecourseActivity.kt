@@ -3,6 +3,7 @@ package com.example.cbcs
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import android.widget.Toast
 import com.example.cbcs.databinding.ActivitySelecourseBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -17,6 +18,8 @@ class SelecourseActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySelecourseBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        
 
         binding.submitBtn.setOnClickListener {
             val name=binding.txtName.text.toString()
