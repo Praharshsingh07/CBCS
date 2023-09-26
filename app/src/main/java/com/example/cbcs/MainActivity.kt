@@ -14,8 +14,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var firebaseAuth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Thread.sleep(3000)
-        installSplashScreen()
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         firebaseAuth= FirebaseAuth.getInstance()
@@ -34,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                         startActivity(intent)
                         finish()
                     }else{
-                        Toast.makeText(this,it.exception.toString(),Toast.LENGTH_LONG).show()
+                        Toast.makeText(this,"Invalid Email or Password",Toast.LENGTH_LONG).show()
                     }
                 }
             }else{
