@@ -12,4 +12,93 @@
     <string name="please_contact_your_department_for_your_credentials">Please Contact Your Department For Your Credentials</string>
     <string name="amity_login_logo">Amity_login_logo</string>
     <string name="login">Login</string>
+    <string name="Amity_Institute_of_BioTechnology">Amity Institute of BioTechnology</string>
+    <string name="ASET_CSE">ASET(CSE)</string>
+    <string name="Amity_Business_School">Amity Business School</string>
+    <string-array name="Departments">
+        <item>Select Department</item>
+        <item>Amity Business School</item>
+        <item>Amity Institute of BioTechnology</item>
+        <item>ASET(CSE)</item>
+        <item>ASET(ECE)</item>
+        <item>ASET(Mech.)</item>
+        <item>ASET(Civil)</item>
+        <item>ASET(Chemistry)</item>
+        <item>Amity School of Communication</item>
+        <item>Amity School of Fashion Design and Technology</item>
+        <item>Amity Law School</item>
+        <item>Amity School of Behavioral Sciences and Allies Sciences</item>
+        <item>Amity School of Languages</item>
+        <item>Amity School of Social Science</item>
+    </string-array>
+    <string-array name="CBCS_Amity_Business_School">
+        <item>Select Course</item>
+        <item>Management Mantra (NCBA 100)</item>
+        <item>Managing Human Resource (NCBB 100)</item>
+        <item>Marketers Tool-kit (NCBC 100)</item>
+        <item>Wealth Management (NCBD 100)</item>
+    </string-array>
+    <string-array name="CBCS_Biotech">
+        <item>Select Course</item>
+        <item>Biotechnology Management (NCBA 101)</item>
+        <item>Conservation Biology (NCBB 101)</item>
+        <item>Disaster Management (NCBC 101)</item>
+        <item>Environmental Law (NCBD 101)</item>
+        <item>Environmental Management (NCBE 101)</item>
+        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+    </string-array>
+    <string-array name="ASET_CSE">
+        <item>Select Course</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+    </string-array>
+    <string-array name="ASET_ECE">
+        <item>Select Course</item>
+        <item>Consumer Electronics (NCBF 102)</item>
+        <item>Embedded Systems (NCBG 102)</item>
+        <item>Instrumentation Engineering (NCBH 102)</item>
+        <item>Signal Processing (NCBI 102)</item>
+        <item>Wireless Communication (NCBJ 102)</item>
+    </string-array>
+    <string-array name="ASET_Mech">
+        <item>Select Course</item>
+        <item>Mechanical Engineering (NCBK 102)</item>
+        <item>Renewable Energy (NCBL 102)</item>
+        <item>Robotics</item>
+    </string-array>
+    <string-array name="ASET_Chemistry">
+        <item>Select Course</item>
+        <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
+    </string-array>
+    <string-array name="Amity_School_Communication">
+        <item>Select Course</item>
+        <item>Animation (NCBA 103)</item>
+        <item>Audio-Visual Communocation (NCBB 103)</item>
+        <item>Media Management (NCBC 103)</item>
+        <item>Print media (NCBD 103)</item>
+    </string-array>
+    <string-array name="Amity_fashion">
+        <item>Select Course</item>
+        <item>Fashion Management (NCBA 104)</item>
+    </string-array>
+    <string-array name="Amity_Law_School">
+        <item>Select Course</item>
+        <item>Human Rights (NCBA 110)</item>
+        <item>Intellectual Property Rights (NCBB 110)</item>
+    </string-array>
+    <string-array name="Aibas">
+        <item>Select Course</item>
+        <item>Psychology (NCBA 111)</item>
+    </string-array>
+    <string-array name="Amity_languages">
+        <item>Select Course</item>
+        <item>English Litrature (NCBA 117)</item>
+    </string-array>
+    <string-array name="Amity_social_Sciences">
+        <item>Select Course</item>
+        <item>Gandhian Studies (NCBA 118)</item>
+    </string-array>
 </resources>
