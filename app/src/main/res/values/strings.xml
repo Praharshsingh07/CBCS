@@ -15,6 +15,16 @@
     <string name="Amity_Institute_of_BioTechnology">Amity Institute of BioTechnology</string>
     <string name="ASET_CSE">ASET(CSE)</string>
     <string name="Amity_Business_School">Amity Business School</string>
+    <string name="ASET_ECE">ASET(ECE)</string>
+    <string name="ASET_Mech">ASET(Mech.)</string>
+    <string name="ASET_Civil">ASET(Civil)</string>
+    <string name="ASET_Chemistry">ASET(Chemistry)</string>
+    <string name="Communication">Amity School of Communication</string>
+    <string name="Fashion">Amity School of Fashion Design and Technology</string>
+    <string name="Law">Amity Law School</string>
+    <string name="Language">Amity School of Languages</string>
+    <string name="Bhehavioural">Amity School of Behavioral Sciences and Allies Sciences</string>
+    <string name="Social_Science">Amity School of Social Science</string>
     <string-array name="Departments">
         <item>Select Department</item>
         <item>Amity Business School</item>

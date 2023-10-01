@@ -21,12 +21,12 @@ class MainActivity : AppCompatActivity() {
             val email=binding.editTxtEmailAddress.text.toString()
             val password=binding.editTxtPassword.text.toString()
 
-            if(email.isBlank() || password.isBlank()){
+            if(email.isBlank() || password.isBlank()){                      //Checking all feilds are non-empty
                 Toast.makeText(this,"Please fill Details Properly",Toast.LENGTH_SHORT).show()
             }
 
             if (email.isNotEmpty()&&password.isNotEmpty()){
-                firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener {
+                firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener {//Authenticating
                     if (it.isSuccessful){
                         val intent = Intent(this,SelecourseActivity::class.java)
                         startActivity(intent)

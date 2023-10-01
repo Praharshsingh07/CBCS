@@ -14,8 +14,8 @@ import com.google.firebase.database.FirebaseDatabase
 class SelecourseActivity : AppCompatActivity() {
     private var dept: String? =null
     private var course: String? =null
-    private lateinit var binding: ActivitySelecourseBinding
-    private lateinit var database: DatabaseReference
+    private lateinit var binding: ActivitySelecourseBinding     //Initilazing View Binding
+    private lateinit var database: DatabaseReference            //Initilazing dAtabase Reference
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySelecourseBinding.inflate(layoutInflater)
@@ -61,6 +61,51 @@ class SelecourseActivity : AppCompatActivity() {
                     val courses = resources.getStringArray(R.array.ASET_CSE)
                     cbcsAdapter.addAll(*courses)
                     course=courses.toString()
+                }else if (dept == getString(R.string.ASET_ECE)) {
+                    // Populate the cbcs spinner with courses for ASET(ECE)
+                    val courses = resources.getStringArray(R.array.ASET_ECE)
+                    cbcsAdapter.addAll(*courses)
+                    course=courses.toString()
+                }else if (dept == getString(R.string.ASET_Mech)) {
+                    // Populate the cbcs spinner with courses for ASET(Mech)
+                    val courses = resources.getStringArray(R.array.ASET_Mech)
+                    cbcsAdapter.addAll(*courses)
+                    course=courses.toString()
+                }else if (dept == getString(R.string.ASET_Chemistry)) {
+                    // Populate the cbcs spinner with courses for ASET chemistry
+                    val courses = resources.getStringArray(R.array.ASET_Chemistry)
+                    cbcsAdapter.addAll(*courses)
+                    course=courses.toString()
+                }else if (dept == getString(R.string.Communication)) {
+                    // Populate the cbcs spinner with courses for Communication
+                    val courses = resources.getStringArray(R.array.Amity_School_Communication)
+                    cbcsAdapter.addAll(*courses)
+                    course=courses.toString()
+                }else if (dept == getString(R.string.Fashion)) {
+                    // Populate the cbcs spinner with courses for Fashion
+                    val courses = resources.getStringArray(R.array.Amity_fashion)
+                    cbcsAdapter.addAll(*courses)
+                    course=courses.toString()
+                }else if (dept == getString(R.string.Law)) {
+                    // Populate the cbcs spinner with courses for Law
+                    val courses = resources.getStringArray(R.array.Amity_Law_School)
+                    cbcsAdapter.addAll(*courses)
+                    course=courses.toString()
+                }else if (dept == getString(R.string.Bhehavioural)) {
+                    // Populate the cbcs spinner with courses for Behavioural
+                    val courses = resources.getStringArray(R.array.Aibas)
+                    cbcsAdapter.addAll(*courses)
+                    course=courses.toString()
+                }else if (dept == getString(R.string.Language)) {
+                    // Populate the cbcs spinner with courses for LAnguages
+                    val courses = resources.getStringArray(R.array.Amity_languages)
+                    cbcsAdapter.addAll(*courses)
+                    course=courses.toString()
+                }else if (dept == getString(R.string.Social_Science)) {
+                    // Populate the cbcs spinner with courses for Social Science
+                    val courses = resources.getStringArray(R.array.Amity_social_Sciences)
+                    cbcsAdapter.addAll(*courses)
+                    course=courses.toString()
                 }
                 // Add more conditions for other departments as needed
 
@@ -73,23 +118,20 @@ class SelecourseActivity : AppCompatActivity() {
             }
 
         }
-
-
-
-
+        //Sending data to Firebase Realtime Database
         binding.submitBtn.setOnClickListener {
-            val name=binding.txtName.text.toString()
-            val enroll =binding.txtEnroll.text.toString()
-            if(name.isBlank() || dept!!.isBlank() || course!!.isBlank() || enroll.isBlank()){
+            val name=binding.txtName.text.toString()  //Getting Name of Student
+            val enroll =binding.txtEnroll.text.toString()   //Getting Enrollment Number of Student
+            if(name.isBlank() || dept!!.isBlank() || course!!.isBlank() || enroll.isBlank()){       //CHECKING ALL FEILDS are filled or nt
                 Toast.makeText(this,"Please All fill Details Properly",Toast.LENGTH_SHORT).show()
             }else {
-                database = FirebaseDatabase.getInstance().getReference("Students")
-                val Student = Student(name,enroll,dept,course)
-                database.child(name).setValue(Student).addOnSuccessListener {
+                database = FirebaseDatabase.getInstance().getReference("Students")      //Getting Firebase Instance
+                val Student = Student(name,enroll,dept,course)                               // creating Object of Data class Students
+                database.child(name).setValue(Student).addOnSuccessListener {         //Setting VAlues
                     val intent = Intent(this, ThankYouActivity::class.java)
                     startActivity(intent)
                     finish()
-                }.addOnFailureListener {
+                }.addOnFailureListener {                                           // adding a Failure Listner
                     Toast.makeText(
                         this,
                         "Failed please try again after some time!!",
