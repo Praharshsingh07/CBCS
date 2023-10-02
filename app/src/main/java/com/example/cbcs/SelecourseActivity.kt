@@ -50,62 +50,62 @@ class SelecourseActivity : AppCompatActivity() {
                     // Populate the cbcs spinner with courses for Amity Business School
                     val courses = resources.getStringArray(R.array.CBCS_Amity_Business_School)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                    //course=courses.toString()
                 } else if (dept == getString(R.string.Amity_Institute_of_BioTechnology)) {
                     // Populate the cbcs spinner with courses for Amity Institute of BioTechnology
                     val courses = resources.getStringArray(R.array.CBCS_Biotech)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                    //course=courses.toString()
                 } else if (dept == getString(R.string.ASET_CSE)) {
                     // Populate the cbcs spinner with courses for ASET(CSE)
                     val courses = resources.getStringArray(R.array.ASET_CSE)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                    //course=courses.toString()
                 }else if (dept == getString(R.string.ASET_ECE)) {
                     // Populate the cbcs spinner with courses for ASET(ECE)
                     val courses = resources.getStringArray(R.array.ASET_ECE)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                   // course=courses.toString()
                 }else if (dept == getString(R.string.ASET_Mech)) {
                     // Populate the cbcs spinner with courses for ASET(Mech)
                     val courses = resources.getStringArray(R.array.ASET_Mech)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                    //course=courses.toString()
                 }else if (dept == getString(R.string.ASET_Chemistry)) {
                     // Populate the cbcs spinner with courses for ASET chemistry
                     val courses = resources.getStringArray(R.array.ASET_Chemistry)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                    //course=courses.toString()
                 }else if (dept == getString(R.string.Communication)) {
                     // Populate the cbcs spinner with courses for Communication
                     val courses = resources.getStringArray(R.array.Amity_School_Communication)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                    //course=courses.toString()
                 }else if (dept == getString(R.string.Fashion)) {
                     // Populate the cbcs spinner with courses for Fashion
                     val courses = resources.getStringArray(R.array.Amity_fashion)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                    //course=courses.toString()
                 }else if (dept == getString(R.string.Law)) {
                     // Populate the cbcs spinner with courses for Law
                     val courses = resources.getStringArray(R.array.Amity_Law_School)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                    //course=courses.toString()
                 }else if (dept == getString(R.string.Bhehavioural)) {
                     // Populate the cbcs spinner with courses for Behavioural
                     val courses = resources.getStringArray(R.array.Aibas)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                    //course=courses.toString()
                 }else if (dept == getString(R.string.Language)) {
                     // Populate the cbcs spinner with courses for LAnguages
                     val courses = resources.getStringArray(R.array.Amity_languages)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                        //course=courses.toString()
                 }else if (dept == getString(R.string.Social_Science)) {
                     // Populate the cbcs spinner with courses for Social Science
                     val courses = resources.getStringArray(R.array.Amity_social_Sciences)
                     cbcsAdapter.addAll(*courses)
-                    course=courses.toString()
+                    //course=courses.toString()
                 }
                 // Add more conditions for other departments as needed
 
@@ -117,7 +117,19 @@ class SelecourseActivity : AppCompatActivity() {
                 // Do nothing here
             }
 
+
         }
+        cbcsSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>?, view: android.view.View?, position: Int, id: Long) {
+                // Get the selected course
+                course = parent?.getItemAtPosition(position).toString()
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                // Do nothing here
+            }
+        }
+
         //Sending data to Firebase Realtime Database
         binding.submitBtn.setOnClickListener {
             val name=binding.txtName.text.toString()  //Getting Name of Student
