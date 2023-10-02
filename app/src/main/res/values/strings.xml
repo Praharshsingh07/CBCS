@@ -25,6 +25,10 @@
     <string name="Language">Amity School of Languages</string>
     <string name="Bhehavioural">Amity School of Behavioral Sciences and Allies Sciences</string>
     <string name="Social_Science">Amity School of Social Science</string>
+    <string name="enter_email_id_hint">Enter Email-id</string>
+    <string name="enter_your_password_hint">Enter Your Password</string>
+    <string name="login_btn">Login</string>
+    <string name="please_contact_your_department_for_your_credentials_">Please Contact Your Department For Your Credentials</string>
     <string-array name="Departments">
         <item>Select Department</item>
         <item>Amity Business School</item>
