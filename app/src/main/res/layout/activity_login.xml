@@ -22,21 +22,21 @@
         android:id="@+id/editTxtEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:ems="10"
-        android:hint="@string/enter_email_id_hint"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        android:padding="10dp"
-        android:textColor="@color/black"
-        android:textAllCaps="false"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"
         android:background="@drawable/backbg"
+        android:ems="10"
+        android:hint="@string/enter_email_id_hint"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintVertical_bias="0.099" />
 
     <EditText
         android:id="@+id/editTxtPassword"
@@ -62,14 +62,15 @@
         android:id="@+id/loginbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/login_btn"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"
+        android:text="@string/login_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTxtPassword"
-        app:layout_constraintVertical_bias="0.37" />
+        app:layout_constraintVertical_bias="0.111" />
 
     <TextView
         android:id="@+id/textView"
@@ -79,8 +80,8 @@
         android:text="@string/please_contact_your_department_for_your_credentials_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginbtn"
-        app:layout_constraintVertical_bias="0.783" />
+        app:layout_constraintVertical_bias="0.198" />
 </androidx.constraintlayout.widget.ConstraintLayout>
