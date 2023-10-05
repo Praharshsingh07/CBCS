@@ -12,7 +12,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
 class SelecourseActivity : AppCompatActivity() {
-    private var dept: String? =null
+    private var dept: String? =null                 //initilaizing variables
     private var course: String? =null
     private lateinit var binding: ActivitySelecourseBinding     //Initilazing View Binding
     private lateinit var database: DatabaseReference            //Initilazing dAtabase Reference
@@ -49,13 +49,13 @@ class SelecourseActivity : AppCompatActivity() {
                 when (dept) {
                     getString(R.string.Amity_Business_School) -> {
                         // Populate the cbcs spinner with courses for Amity Business School
-                        val courses = resources.getStringArray(R.array.CBCS_Amity_Business_School)
+                        val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
 
                     }
                     getString(R.string.Amity_Institute_of_BioTechnology) -> {
                         // Populate the cbcs spinner with courses for Amity Institute of BioTechnology
-                        val courses = resources.getStringArray(R.array.CBCS_Biotech)
+                        val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
 
                     }
@@ -67,54 +67,54 @@ class SelecourseActivity : AppCompatActivity() {
                     }
                     getString(R.string.ASET_ECE) -> {
                         // Populate the cbcs spinner with courses for ASET(ECE)
-                        val courses = resources.getStringArray(R.array.ASET_ECE)
+                        val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
 
                     }
                     getString(R.string.ASET_Mech) -> {
                         // Populate the cbcs spinner with courses for ASET(Mech)
-                        val courses = resources.getStringArray(R.array.ASET_Mech)
+                        val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
                         //course=courses.toString()
                     }
                     getString(R.string.ASET_Chemistry) -> {
                         // Populate the cbcs spinner with courses for ASET chemistry
-                        val courses = resources.getStringArray(R.array.ASET_Chemistry)
+                        val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
 
                     }
                     getString(R.string.Communication) -> {
                         // Populate the cbcs spinner with courses for Communication
-                        val courses = resources.getStringArray(R.array.Amity_School_Communication)
+                        val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
 
                     }
                     getString(R.string.Fashion) -> {
                         // Populate the cbcs spinner with courses for Fashion
-                        val courses = resources.getStringArray(R.array.Amity_fashion)
+                        val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
 
                     }
                     getString(R.string.Law) -> {
                         // Populate the cbcs spinner with courses for Law
-                        val courses = resources.getStringArray(R.array.Amity_Law_School)
+                        val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
 
                     }
                     getString(R.string.Bhehavioural) -> {
                         // Populate the cbcs spinner with courses for Behavioural
-                        val courses = resources.getStringArray(R.array.Aibas)
+                        val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
                     }
                     getString(R.string.Language) -> {
                         // Populate the cbcs spinner with courses for LAnguages
-                        val courses = resources.getStringArray(R.array.Amity_languages)
+                        val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
 
                     }
                     getString(R.string.Social_Science) -> {
                         // Populate the cbcs spinner with courses for Social Science
-                        val courses = resources.getStringArray(R.array.Amity_social_Sciences)
+                        val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
 
                     }
