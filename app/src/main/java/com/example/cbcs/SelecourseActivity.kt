@@ -1,8 +1,11 @@
 package com.example.cbcs
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.view.inputmethod.InputMethodManager
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
@@ -15,11 +18,24 @@ class SelecourseActivity : AppCompatActivity() {
     private var dept: String? =null                 //initilaizing variables
     private var course: String? =null
     private lateinit var binding: ActivitySelecourseBinding     //Initilazing View Binding
-    private lateinit var database: DatabaseReference            //Initilazing dAtabase Reference
+    private lateinit var database: DatabaseReference            //Initilazing database Reference
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySelecourseBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        //function to hide keyboard
+        fun hidekeyboard () {
+            val view: View?=this.currentFocus
+            if (view!=null){
+                val imm: InputMethodManager =getSystemService(Context.INPUT_METHOD_SERVICE)as InputMethodManager
+                imm.hideSoftInputFromWindow(view.windowToken,0)
+            }
+
+        }
+
+        binding.imageBtn.setOnClickListener {               //hiding keyboard
+            hidekeyboard()
+        }
         // Reference the spinners
         val deptSpinner = findViewById<Spinner>(R.id.txt_dept)
         val cbcsSpinner = findViewById<Spinner>(R.id.txt_cbcs)
