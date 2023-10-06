@@ -171,7 +171,7 @@ class SelecourseActivity : AppCompatActivity() {
                     val intent = Intent(this, ThankYouActivity::class.java)
                     startActivity(intent)
                     finish()
-                }.addOnFailureListener {                                           // adding a Failure Listner
+                }.addOnFailureListener {                           // adding a Failure Listner
                     Toast.makeText(
                         this,
                         "Failed please try again after some time!!",

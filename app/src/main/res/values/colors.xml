@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="bg">#D8D6D6</color>
+
+    <color name="cool_yellow">#F4DD04</color>
 </resources>
