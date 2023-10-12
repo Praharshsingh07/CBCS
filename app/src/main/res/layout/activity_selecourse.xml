@@ -25,63 +25,84 @@
     <EditText
         android:id="@+id/txt_name"
         android:layout_width="384dp"
-        android:autofillHints="name"
         android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:autofillHints="name"
         android:background="@color/bg"
         android:hint="@string/your_name"
         android:inputType="textPersonName"
         android:maxLength="30"
         android:padding="10dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginTop="30dp"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265" />
+        app:layout_constraintVertical_bias="0.225" />
 
     <EditText
         android:id="@+id/txt_enroll"
         android:layout_width="384dp"
         android:layout_height="53dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
         android:background="@color/bg"
         android:hint="@string/your_enrollment_number"
-        android:layout_marginStart="12dp"
+        android:inputType="textShortMessage"
         android:maxLength="12"
         android:padding="10dp"
-        android:layout_marginEnd="12dp"
-        android:inputType="textShortMessage"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_name" />
+
 
     <Spinner
         android:id="@+id/txt_dept"
         android:layout_width="384dp"
         android:layout_height="50dp"
-        android:padding="10dp"
         android:layout_marginTop="12dp"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_enroll" />
-
-
 
     <Spinner
         android:id="@+id/txt_cbcs"
         android:layout_width="384dp"
         android:layout_height="50dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_enroll" />
+
+    <Spinner
+        android:id="@+id/txt_cbcs2"
+        android:layout_width="384dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="148dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_enroll" />
+
+    <Spinner
+        android:id="@+id/txt_cbcs3"
+        android:layout_width="384dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="216dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_enroll" />
 
@@ -92,10 +113,10 @@
         android:text="@string/submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_cbcs"
-        app:layout_constraintVertical_bias="0.105" />
-
+        app:layout_constraintVertical_bias="0.827" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

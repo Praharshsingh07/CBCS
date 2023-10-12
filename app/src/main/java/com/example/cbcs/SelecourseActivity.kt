@@ -17,6 +17,8 @@ import com.google.firebase.database.FirebaseDatabase
 class SelecourseActivity : AppCompatActivity() {
     private var dept: String? =null                 //initilaizing variables
     private var course: String? =null
+    private var course2: String? =null
+    private var course3: String? =null
     private lateinit var binding: ActivitySelecourseBinding     //Initilazing View Binding
     private lateinit var database: DatabaseReference            //Initilazing database Reference
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,6 +41,9 @@ class SelecourseActivity : AppCompatActivity() {
         // Reference the spinners
         val deptSpinner = findViewById<Spinner>(R.id.txt_dept)
         val cbcsSpinner = findViewById<Spinner>(R.id.txt_cbcs)
+        val spinner2 = findViewById<Spinner>(R.id.txt_cbcs2)
+        val spinner3 = findViewById<Spinner>(R.id.txt_cbcs3)
+
 
         // Create ArrayAdapter for the department spinner
         val deptAdapter = ArrayAdapter.createFromResource(
@@ -75,12 +80,6 @@ class SelecourseActivity : AppCompatActivity() {
                         cbcsAdapter.addAll(*courses)
 
                     }
-                    getString(R.string.ASET_CSE) -> {
-                        // Populate the cbcs spinner with courses for ASET(CSE)
-                        val courses = resources.getStringArray(R.array.ASET_CSE)
-                        cbcsAdapter.addAll(*courses)
-
-                    }
                     getString(R.string.ASET_ECE) -> {
                         // Populate the cbcs spinner with courses for ASET(ECE)
                         val courses = resources.getStringArray(R.array.CBCS_Common)
@@ -91,7 +90,7 @@ class SelecourseActivity : AppCompatActivity() {
                         // Populate the cbcs spinner with courses for ASET(Mech)
                         val courses = resources.getStringArray(R.array.CBCS_Common)
                         cbcsAdapter.addAll(*courses)
-                        //course=courses.toString()
+                        //selectedcourse1=courses.toString()
                     }
                     getString(R.string.ASET_Chemistry) -> {
                         // Populate the cbcs spinner with courses for ASET chemistry
@@ -149,7 +148,7 @@ class SelecourseActivity : AppCompatActivity() {
         }
         cbcsSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: android.view.View?, position: Int, id: Long) {
-                // Get the selected course
+                // Get the selected selectedcourse1
                 course = parent?.getItemAtPosition(position).toString()
             }
 
@@ -157,16 +156,59 @@ class SelecourseActivity : AppCompatActivity() {
                 // Do nothing here
             }
         }
+        val spinner2Adapter = ArrayAdapter.createFromResource(
+            this,
+            R.array.CBCS_Common_1,
+            android.R.layout.simple_spinner_item
+        )
+        spinner2Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        spinner2.adapter = spinner2Adapter
+
+        val spinner3Adapter = ArrayAdapter.createFromResource(
+            this,
+            R.array.CBCS_Common_2,
+            android.R.layout.simple_spinner_item
+        )
+        spinner3Adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        spinner3.adapter = spinner3Adapter
+
+
+        spinner2.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                // Get the selected value from spinner2
+                course2 = parent?.getItemAtPosition(position).toString()
+                // Store the selected value in a variable or perform other actions.
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                // Handle case when nothing is selected
+            }
+        }
+
+        spinner3.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                // Get the selected value from spinner3
+                course3 = parent?.getItemAtPosition(position).toString()
+                // Store the selected value in a variable or perform other actions.
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                // Handle case when nothing is selected
+            }
+        }
+
 
         //Sending data to Firebase Realtime Database
         binding.submitBtn.setOnClickListener {
             val name=binding.txtName.text.toString()  //Getting Name of Student
             val enroll =binding.txtEnroll.text.toString()   //Getting Enrollment Number of Student
             if(name.isBlank() || dept!!.isBlank() || course!!.isBlank() || enroll.isBlank()){       //CHECKING ALL FEILDS are filled or nt
-                Toast.makeText(this,"Please All fill Details Properly",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,
+                    "Please All fill Details Properly",
+                    Toast.LENGTH_SHORT).show()
             }else {
                 database = FirebaseDatabase.getInstance().getReference("Students")      //Getting Firebase Instance
-                val student = Student(name,enroll,dept,course)                               // creating Object of Data class Students
+                val student = Student(name,enroll,dept,course,course2,course3)                               // creating Object of Data class Students
                 database.child(name).setValue(student).addOnSuccessListener {         //Setting VAlues
                     val intent = Intent(this, ThankYouActivity::class.java)
                     startActivity(intent)

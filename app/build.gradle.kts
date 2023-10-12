@@ -53,7 +53,7 @@ dependencies {
     implementation("androidx.core:core-splashscreen:1.1.0-alpha02")
     implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
     implementation("com.google.firebase:firebase-analytics-ktx")
-
+    implementation("androidx.cardview:cardview:1.0.0")
     //for lottie animation
     implementation ("com.airbnb.android:lottie:6.1.0")
 
