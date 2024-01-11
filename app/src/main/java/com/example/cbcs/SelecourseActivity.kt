@@ -22,6 +22,9 @@ class SelecourseActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySelecourseBinding     //Initilazing View Binding
     private lateinit var database: DatabaseReference            //Initilazing database Reference
     override fun onCreate(savedInstanceState: Bundle?) {
+        //hide status bar
+        
+
         super.onCreate(savedInstanceState)
         binding = ActivitySelecourseBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -32,10 +35,9 @@ class SelecourseActivity : AppCompatActivity() {
                 val imm: InputMethodManager =getSystemService(Context.INPUT_METHOD_SERVICE)as InputMethodManager
                 imm.hideSoftInputFromWindow(view.windowToken,0)
             }
-
         }
 
-        binding.imageBtn.setOnClickListener {               //hiding keyboard
+        binding.imageBtn.setOnClickListener { //hiding keyboard
             hidekeyboard()
         }
         // Reference the spinners

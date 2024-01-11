@@ -1,34 +1,34 @@
 <resources>
-    <string name="app_name">CBCS</string>
-    <string name="submit">Submit</string>
-    <string name="your_enrollment_number">Your Enrollment Number</string>
-    <string name="your_course">Your Course</string>
-    <string name="your_department">Your Department</string>
-    <string name="your_name">Your Name</string>
-    <string name="amity_logo">Amity logo</string>
-    <string name="your_subject_for_cbcs">Your Subject for CBCS</string>
-    <string name="enter_email_id">Enter Email-id</string>
-    <string name="enter_your_password">Enter Your Password</string>
-    <string name="please_contact_your_department_for_your_credentials">Please Contact Your Department For Your Credentials</string>
-    <string name="amity_login_logo">Amity_login_logo</string>
-    <string name="login">Login</string>
-    <string name="Amity_Institute_of_BioTechnology">Amity Institute of BioTechnology</string>
-    <string name="ASET_CSE">ASET(CSE)</string>
-    <string name="Amity_Business_School">Amity Business School</string>
-    <string name="ASET_ECE">ASET(ECE)</string>
-    <string name="ASET_Mech">ASET(Mech.)</string>
-    <string name="ASET_Civil">ASET(Civil)</string>
-    <string name="ASET_Chemistry">ASET(Chemistry)</string>
-    <string name="Communication">Amity School of Communication</string>
-    <string name="Fashion">Amity School of Fashion Design and Technology</string>
-    <string name="Law">Amity Law School</string>
-    <string name="Language">Amity School of Languages</string>
-    <string name="Bhehavioural">Amity School of Behavioral Sciences and Allies Sciences</string>
-    <string name="Social_Science">Amity School of Social Science</string>
-    <string name="enter_email_id_hint">Enter Email-id</string>
-    <string name="enter_your_password_hint">Enter Your Password</string>
-    <string name="login_btn">Login</string>
-    <string name="please_contact_your_department_for_your_credentials_">Please Contact Your Department For Your Credentials</string>
+    <string name="app_name" translatable="false">CBCS</string>
+    <string name="submit" translatable="false">Submit</string>
+    <string name="your_enrollment_number" translatable="false">Your Enrollment Number</string>
+    <string name="your_course" translatable="false">Your Course</string>
+    <string name="your_department" translatable="false">Your Department</string>
+    <string name="your_name" translatable="false">Your Name</string>
+    <string name="amity_logo" translatable="false">Amity logo</string>
+    <string name="your_subject_for_cbcs" translatable="false">Your Subject for CBCS</string>
+    <string name="enter_email_id" translatable="false">Enter Email-id</string>
+    <string name="enter_your_password" translatable="false">Enter Your Password</string>
+    <string name="please_contact_your_department_for_your_credentials" translatable="false">Please Contact Your Department For Your Credentials</string>
+    <string name="amity_login_logo" translatable="false">Amity_login_logo</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="Amity_Institute_of_BioTechnology" translatable="false">Amity Institute of BioTechnology</string>
+    <string name="ASET_CSE" translatable="false">ASET(CSE)</string>
+    <string name="Amity_Business_School" translatable="false">Amity Business School</string>
+    <string name="ASET_ECE" translatable="false">ASET(ECE)</string>
+    <string name="ASET_Mech" translatable="false">ASET(Mech.)</string>
+    <string name="ASET_Civil" translatable="false">ASET(Civil)</string>
+    <string name="ASET_Chemistry" translatable="false">ASET(Chemistry)</string>
+    <string name="Communication" translatable="false">Amity School of Communication</string>
+    <string name="Fashion" translatable="false">Amity School of Fashion Design and Technology</string>
+    <string name="Law" translatable="false">Amity Law School</string>
+    <string name="Language" translatable="false">Amity School of Languages</string>
+    <string name="Bhehavioural" translatable="false">Amity School of Behavioral Sciences and Allies Sciences</string>
+    <string name="Social_Science" translatable="false">Amity School of Social Science</string>
+    <string name="enter_email_id_hint" translatable="false">Email</string>
+    <string name="enter_your_password_hint" translatable="false">Password</string>
+    <string name="login_btn" translatable="false">Login</string>
+    <string name="please_contact_your_department_for_your_credentials_" translatable="false">Please Contact Your Department For Your Credentials</string>
     <string-array name="Departments">
         <item>Select  Your Department</item>
         <item>Amity Business School</item>
