@@ -21,12 +21,11 @@ class SelecourseActivity : AppCompatActivity() {
     private var course3: String? =null
     private lateinit var binding: ActivitySelecourseBinding     //Initilazing View Binding
     private lateinit var database: DatabaseReference            //Initilazing database Reference
-    override fun onCreate(savedInstanceState: Bundle?) {
-        //hide status bar
+    override fun onCreate(savedInstanceState: Bundle?) {  //hide status bar
         
 
         super.onCreate(savedInstanceState)
-        binding = ActivitySelecourseBinding.inflate(layoutInflater)
+        binding = ActivitySelecourseBinding.inflate(layoutInflater) //Inflating the Layout
         setContentView(binding.root)
         //function to hide keyboard
         fun hidekeyboard () {
@@ -39,6 +38,11 @@ class SelecourseActivity : AppCompatActivity() {
 
         binding.imageBtn.setOnClickListener { //hiding keyboard
             hidekeyboard()
+        }
+
+        binding.fabSelectcourse.setOnClickListener { // navigating to info Activity
+            val intent =Intent(this,infoActivity::class.java)
+            startActivity(intent)
         }
         // Reference the spinners
         val deptSpinner = findViewById<Spinner>(R.id.txt_dept)

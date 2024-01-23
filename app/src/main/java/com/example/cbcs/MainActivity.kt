@@ -29,6 +29,10 @@ class MainActivity : AppCompatActivity() {
         binding.imgbtn.setOnClickListener {             //hiding keyboard
             hidekeyboard()
         }
+        binding.fabMain.setOnClickListener {        // navigating ti info Activity
+            val intent = Intent(this,infoActivity::class.java)
+            startActivity(intent)
+        }
         firebaseAuth= FirebaseAuth.getInstance()        //getting firebase instance
         binding.loginbtn.setOnClickListener {
             val email=binding.editTxtEmailAddress.text.toString()
