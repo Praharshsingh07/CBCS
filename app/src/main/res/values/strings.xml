@@ -221,7 +221,19 @@
         <item>English Litrature (NCBA 117)</item>
         <item>Gandhian Studies (NCBA 118)</item>
     </string-array>
-    <string name="info_text_view_content" translatable="false">Hii This is CBCS Regisratiion Application for Students of Amity University Madhya Pradesh.
-    You Can Get Your Username and password from Your mentor.You can Login with that Password.You Should Fill Your Name and Enrollment Number in Capital Letters.
-    Then You Need to Choose Your Course.The Your Need to fill the Three Preferences of Your CBCS Accordingly.And Forgot to Smash Submit Button.Student of B.Tech CSE(ASET) can Contact their Mentors Regarding CBCS Allotment.</string>
+    <string name="info_text_view_content">
+    <![CDATA[
+    <ul>
+        <li>Hii This is CBCS Registration Application for Students of Amity University Madhya Pradesh.</li>
+        <li>You Can Get Your Username and password from Your mentor and Login with that Password.</li>
+        <li>You Should Fill Your Name and Enrollment Number in Capital Letters.</li>
+        <li>Then You Need to Choose Your Course.</li>
+        <li>Then You Need to fill the Three Preferences of Your CBCS Accordingly.</li>
+        <li>Do not Forget to Smash Submit Button.</li>
+        <li>Student of B.Tech CSE(ASET) can Contact their Mentors Regarding CBCS Allotment.</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="welcome_text">Welcome !</string>
 </resources>
