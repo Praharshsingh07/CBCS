@@ -20,9 +20,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/amity_logo" />
+
     <Space
         android:layout_width="395dp"
-        android:layout_height="165dp"/>
+        android:layout_height="105dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -83,7 +84,7 @@
         android:layout_height="wrap_content"
         android:text="@string/login"
         android:textColor="#ffdc94"
-        android:background="@drawable/backbg"
+        android:background="@drawable/new_btn"
         android:shadowColor="#ffdc94"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"

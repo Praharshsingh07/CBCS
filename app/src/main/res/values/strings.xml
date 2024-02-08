@@ -114,7 +114,7 @@
         <item>Gandhian Studies (NCBA 118)</item>
     </string-array>
     <string-array name="CBCS_Common">
-        <item>Select Your Course (First choice)</item>
+        <item>Select Your First Preference For CBCS</item>
         <item>Management Mantra (NCBA 100)</item>
         <item>Managing Human Resource (NCBB 100)</item>
         <item>Marketers Tool-kit (NCBC 100)</item>
@@ -150,7 +150,7 @@
         <item>Gandhian Studies (NCBA 118)</item>
     </string-array>
     <string-array name="CBCS_Common_1">
-        <item>Select Your Course (Second choice)</item>
+        <item>Select Your Second Preference For CBCS</item>
         <item>Management Mantra (NCBA 100)</item>
         <item>Managing Human Resource (NCBB 100)</item>
         <item>Marketers Tool-kit (NCBC 100)</item>
@@ -186,7 +186,7 @@
         <item>Gandhian Studies (NCBA 118)</item>
     </string-array>
     <string-array name="CBCS_Common_2">
-        <item>Select Your Course (Third choice)</item>
+        <item>Select Your Third Preference For CBCS</item>
         <item>Management Mantra (NCBA 100)</item>
         <item>Managing Human Resource (NCBB 100)</item>
         <item>Marketers Tool-kit (NCBC 100)</item>
