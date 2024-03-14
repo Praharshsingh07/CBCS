@@ -30,7 +30,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="12dp"
         android:autofillHints="name"
-        android:background="@drawable/text_bg"
+        android:background="@drawable/txt_feild"
         android:hint="@string/your_name"
         android:inputType="textPersonName"
         android:maxLength="30"
@@ -49,10 +49,12 @@
         android:id="@+id/txt_enroll"
         android:layout_width="384dp"
         android:layout_height="53dp"
+        android:minEms="12"
+        android:maxEms="12"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="12dp"
-        android:background="@drawable/text_bg"
+        android:background="@drawable/txt_feild"
         android:hint="@string/your_enrollment_number"
         android:inputType="textShortMessage"
         android:maxLength="12"
@@ -68,10 +70,11 @@
         android:id="@+id/txt_dept"
         android:layout_width="384dp"
         android:layout_height="50dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/txt_feild"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_enroll" />
 
@@ -80,9 +83,10 @@
         android:layout_width="384dp"
         android:layout_height="50dp"
         android:layout_marginTop="80dp"
+        android:background="@drawable/txt_feild"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_enroll" />
 
@@ -91,9 +95,10 @@
         android:layout_width="384dp"
         android:layout_height="50dp"
         android:layout_marginTop="148dp"
+        android:background="@drawable/txt_feild"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_enroll" />
 
@@ -101,27 +106,42 @@
         android:id="@+id/txt_cbcs3"
         android:layout_width="384dp"
         android:layout_height="50dp"
-        android:layout_marginTop="216dp"
+        android:layout_marginTop="196dp"
+        android:background="@drawable/txt_feild"
         android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_enroll" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_enroll"
+        app:layout_constraintVertical_bias="0.081" />
 
     <Button
         android:id="@+id/submitBtn"
         android:layout_width="348dp"
         android:layout_height="51dp"
+        android:fontFamily="@font/aclonica"
         android:text="@string/submit"
         android:textColor="#ffdc94"
-        android:fontFamily="@font/aclonica"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_cbcs"
-        app:layout_constraintVertical_bias="0.654" />
+        app:layout_constraintVertical_bias="0.709" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/progressBar1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitBtn"
+        app:layout_constraintVertical_bias="0.142" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_selectcourse"

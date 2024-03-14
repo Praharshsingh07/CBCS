@@ -8,6 +8,7 @@ import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.ProgressBar
 import android.widget.Spinner
 import android.widget.Toast
 import com.example.cbcs.databinding.ActivitySelecourseBinding
@@ -21,6 +22,7 @@ class SelecourseActivity : AppCompatActivity() {
     private var course3: String? =null
     private lateinit var binding: ActivitySelecourseBinding     //Initilazing View Binding
     private lateinit var database: DatabaseReference            //Initilazing database Reference
+    private lateinit var progressBar: ProgressBar
     override fun onCreate(savedInstanceState: Bundle?) {  //hide status bar
         
 
@@ -64,6 +66,8 @@ class SelecourseActivity : AppCompatActivity() {
         val cbcsAdapter = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item)
         cbcsAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         cbcsSpinner.adapter = cbcsAdapter // Updated reference here
+
+        progressBar=binding.progressBar1
 
         deptSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: android.view.View?, position: Int, id: Long) {
@@ -213,9 +217,11 @@ class SelecourseActivity : AppCompatActivity() {
                     "Please All fill Details Properly",
                     Toast.LENGTH_SHORT).show()
             }else {
+                progressBar.visibility=View.VISIBLE
                 database = FirebaseDatabase.getInstance().getReference("Students")      //Getting Firebase Instance
                 val student = Student(name,enroll,dept,course,course2,course3)                               // creating Object of Data class Students
                 database.child(name).setValue(student).addOnSuccessListener {         //Setting VAlues
+                    progressBar.visibility=View.GONE
                     val intent = Intent(this, ThankYouActivity::class.java)
                     startActivity(intent)
                     finish()
