@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:textSize="48sp"
-        android:paddingLeft="60dp"
+        android:paddingStart="60dp"
         android:layout_marginStart="12dp"
         android:background="@null"
         android:fontFamily="@font/aclonica"
@@ -102,7 +102,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/please_contact_your_department_for_your_credentials"
+        android:text="Don't have a Account?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
@@ -112,7 +112,7 @@
         android:textSize="16sp"
         android:layout_marginBottom="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginbtn"
+        app:layout_constraintTop_toBottomOf="@+id/createaccbtn"
         app:layout_constraintVertical_bias="0.917" />
 
     <ProgressBar
@@ -124,13 +124,11 @@
         android:id="@+id/progressBar"
         />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_main"
-        android:layout_width="80dp"
-        android:layout_height="55dp"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginVertical="70dp"
-        android:clickable="true"
-        app:srcCompat="@android:drawable/ic_menu_info_details" />
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="64dp"
+        android:text="@string/signup_login"
+        android:id="@+id/signup_login"
+        android:layout_marginStart="160dp"/>
 
 </LinearLayout>

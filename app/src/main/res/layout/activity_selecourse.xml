@@ -66,15 +66,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_name" />
 
+
     <Spinner
         android:id="@+id/txt_dept"
         android:layout_width="384dp"
         android:layout_height="50dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/txt_feild"
+
+        app:layout_constraintBottom_toTopOf="@+id/txt_program"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_enroll"
+        app:layout_constraintVertical_bias="0.425" />
+
+    <Spinner
+        android:id="@+id/txt_program"
+        android:layout_width="384dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/txt_feild"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_enroll" />
 
@@ -82,11 +95,11 @@
         android:id="@+id/txt_cbcs"
         android:layout_width="384dp"
         android:layout_height="50dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="144dp"
         android:background="@drawable/txt_feild"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_enroll" />
 
@@ -94,11 +107,11 @@
         android:id="@+id/txt_cbcs2"
         android:layout_width="384dp"
         android:layout_height="50dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="208dp"
         android:background="@drawable/txt_feild"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_enroll" />
 
@@ -111,10 +124,10 @@
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_enroll"
-        app:layout_constraintVertical_bias="0.081" />
+        app:layout_constraintVertical_bias="0.517" />
 
     <Button
         android:id="@+id/submitBtn"
@@ -129,7 +142,7 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_cbcs"
-        app:layout_constraintVertical_bias="0.709" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ProgressBar
         android:layout_width="wrap_content"
@@ -143,18 +156,7 @@
         app:layout_constraintTop_toBottomOf="@+id/submitBtn"
         app:layout_constraintVertical_bias="0.142" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_selectcourse"
-        android:layout_width="58dp"
-        android:layout_height="60dp"
-        android:clickable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.011"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/submitBtn"
-        app:layout_constraintVertical_bias="0.611"
-        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

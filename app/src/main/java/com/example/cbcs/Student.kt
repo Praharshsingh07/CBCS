@@ -3,9 +3,10 @@ package com.example.cbcs
 data class Student(
     val name: String?=null,
     val enrollmentNumber: String?=null,
-    val department: String?=null,
-    val selectedcourse1: String?=null,
-    val selectedcourse2: String?=null,
-    val selectedcourse3: String?=null
+    val School: String?=null,
+    val Program:String?=null,
+    val Choice1: String?=null,
+    val Choice2: String?=null,
+    val Choice3: String?=null
 )
 

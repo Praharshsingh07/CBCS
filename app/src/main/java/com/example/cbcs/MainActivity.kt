@@ -31,19 +31,28 @@ class MainActivity : AppCompatActivity() {
         binding.imgbtn.setOnClickListener {             //hiding keyboard
             hidekeyboard()
         }
-        binding.fabMain.setOnClickListener {        // navigating ti info Activity
-            val intent = Intent(this,infoActivity::class.java)
+        binding.signupLogin.setOnClickListener {
+            val intent = Intent(this,signupActivity::class.java)
             startActivity(intent)
         }
+
         progressBar = binding.progressBar
         firebaseAuth= FirebaseAuth.getInstance()        //getting firebase instance
         binding.loginbtn.setOnClickListener {
             val email = binding.editTxtEmailAddress.text.toString()
             val password = binding.editTxtPassword.text.toString()
+            hidekeyboard()
 
             if (email.isBlank() || password.isBlank()) {                      //Checking all feilds are non-empty
                 Toast.makeText(this, "Please fill Details Properly", Toast.LENGTH_SHORT).show()
-            } else {
+            }else if (!email.endsWith("@s.amity.edu")) {
+                Toast.makeText(
+                    this,
+                    "Please Use your School I'd  to Login",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+            else {
                 progressBar.visibility = View.VISIBLE
 
                 if (email.isNotEmpty() && password.isNotEmpty()) {

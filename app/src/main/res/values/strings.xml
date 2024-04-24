@@ -45,12 +45,105 @@
     </string-array>
     <string-array name="CBCS_Amity_Business_School">
         <item>Select Course</item>
+        <item>Biotechnology Management (NCBA 101)</item>
+        <item>Conservation Biology (NCBB 101)</item>
+        <item>Disaster Management (NCBC 101)</item>
+        <item>Environmental Law (NCBD 101)</item>
+        <item>Environmental Management (NCBE 101)</item>
+        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+        <item>Consumer Electronics (NCBF 102)</item>
+        <item>Embedded Systems (NCBG 102)</item>
+        <item>Instrumentation Engineering (NCBH 102)</item>
+        <item>Signal Processing (NCBI 102)</item>
+        <item>Wireless Communication (NCBJ 102)</item>
+        <item>Mechanical Engineering (NCBK 102)</item>
+        <item>Renewable Energy (NCBL 102)</item>
+        <item>Robotics</item>
+        <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
+        <item>Animation (NCBA 103)</item>
+        <item>Audio-Visual Communocation (NCBB 103)</item>
+        <item>Media Management (NCBC 103)</item>
+        <item>Print media (NCBD 103)</item>
+        <item>Fashion Management (NCBA 104)</item>
+        <item>Human Rights (NCBA 110)</item>
+        <item>Intellectual Property Rights (NCBB 110)</item>
+        <item>Psychology (NCBA 111)</item>
+        <item>English Litrature (NCBA 117)</item>
+        <item>Gandhian Studies (NCBA 118)</item>
+    </string-array>
+    <string-array name="CBCS_Biotech">
+        <item>Select Course</item>
         <item>Management Mantra (NCBA 100)</item>
         <item>Managing Human Resource (NCBB 100)</item>
         <item>Marketers Tool-kit (NCBC 100)</item>
         <item>Wealth Management (NCBD 100)</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+        <item>Consumer Electronics (NCBF 102)</item>
+        <item>Embedded Systems (NCBG 102)</item>
+        <item>Instrumentation Engineering (NCBH 102)</item>
+        <item>Signal Processing (NCBI 102)</item>
+        <item>Wireless Communication (NCBJ 102)</item>
+        <item>Mechanical Engineering (NCBK 102)</item>
+        <item>Renewable Energy (NCBL 102)</item>
+        <item>Robotics</item>
+        <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
+        <item>Animation (NCBA 103)</item>
+        <item>Audio-Visual Communocation (NCBB 103)</item>
+        <item>Media Management (NCBC 103)</item>
+        <item>Print media (NCBD 103)</item>
+        <item>Fashion Management (NCBA 104)</item>
+        <item>Human Rights (NCBA 110)</item>
+        <item>Intellectual Property Rights (NCBB 110)</item>
+        <item>Psychology (NCBA 111)</item>
+        <item>English Litrature (NCBA 117)</item>
+        <item>Gandhian Studies (NCBA 118)</item>
     </string-array>
-    <string-array name="CBCS_Biotech">
+    <string-array name="ASET_CSE">
+        <item>Biotechnology Management (NCBA 101)</item>
+        <item>Conservation Biology (NCBB 101)</item>
+        <item>Disaster Management (NCBC 101)</item>
+        <item>Environmental Law (NCBD 101)</item>
+        <item>Environmental Management (NCBE 101)</item>
+        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Management Mantra (NCBA 100)</item>
+        <item>Managing Human Resource (NCBB 100)</item>
+        <item>Marketers Tool-kit (NCBC 100)</item>
+        <item>Wealth Management (NCBD 100)</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+        <item>Consumer Electronics (NCBF 102)</item>
+        <item>Embedded Systems (NCBG 102)</item>
+        <item>Instrumentation Engineering (NCBH 102)</item>
+        <item>Signal Processing (NCBI 102)</item>
+        <item>Wireless Communication (NCBJ 102)</item>
+        <item>Mechanical Engineering (NCBK 102)</item>
+        <item>Renewable Energy (NCBL 102)</item>
+        <item>Robotics</item>
+        <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
+        <item>Animation (NCBA 103)</item>
+        <item>Audio-Visual Communocation (NCBB 103)</item>
+        <item>Media Management (NCBC 103)</item>
+        <item>Print media (NCBD 103)</item>
+        <item>Fashion Management (NCBA 104)</item>
+        <item>Human Rights (NCBA 110)</item>
+        <item>Intellectual Property Rights (NCBB 110)</item>
+        <item>Psychology (NCBA 111)</item>
+        <item>English Litrature (NCBA 117)</item>
+        <item>Gandhian Studies (NCBA 118)</item>
+    </string-array>
+    <string-array name="ASET_ECE">
         <item>Select Course</item>
         <item>Biotechnology Management (NCBA 101)</item>
         <item>Conservation Biology (NCBB 101)</item>
@@ -58,60 +151,312 @@
         <item>Environmental Law (NCBD 101)</item>
         <item>Environmental Management (NCBE 101)</item>
         <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Management Mantra (NCBA 100)</item>
+        <item>Managing Human Resource (NCBB 100)</item>
+        <item>Marketers Tool-kit (NCBC 100)</item>
+        <item>Wealth Management (NCBD 100)</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+        <item>Mechanical Engineering (NCBK 102)</item>
+        <item>Renewable Energy (NCBL 102)</item>
+        <item>Robotics</item>
+        <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
+        <item>Animation (NCBA 103)</item>
+        <item>Audio-Visual Communocation (NCBB 103)</item>
+        <item>Media Management (NCBC 103)</item>
+        <item>Print media (NCBD 103)</item>
+        <item>Fashion Management (NCBA 104)</item>
+        <item>Human Rights (NCBA 110)</item>
+        <item>Intellectual Property Rights (NCBB 110)</item>
+        <item>Psychology (NCBA 111)</item>
+        <item>English Litrature (NCBA 117)</item>
+        <item>Gandhian Studies (NCBA 118)</item>
     </string-array>
-    <string-array name="ASET_CSE">
+    <string-array name="ASET_Mech">
+        <item>Select Course</item>
+        <item>Biotechnology Management (NCBA 101)</item>
+        <item>Conservation Biology (NCBB 101)</item>
+        <item>Disaster Management (NCBC 101)</item>
+        <item>Environmental Law (NCBD 101)</item>
+        <item>Environmental Management (NCBE 101)</item>
+        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Management Mantra (NCBA 100)</item>
+        <item>Managing Human Resource (NCBB 100)</item>
+        <item>Marketers Tool-kit (NCBC 100)</item>
+        <item>Wealth Management (NCBD 100)</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+        <item>Consumer Electronics (NCBF 102)</item>
+        <item>Embedded Systems (NCBG 102)</item>
+        <item>Instrumentation Engineering (NCBH 102)</item>
+        <item>Signal Processing (NCBI 102)</item>
+        <item>Wireless Communication (NCBJ 102)</item>
+        <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
+        <item>Animation (NCBA 103)</item>
+        <item>Audio-Visual Communocation (NCBB 103)</item>
+        <item>Media Management (NCBC 103)</item>
+        <item>Print media (NCBD 103)</item>
+        <item>Fashion Management (NCBA 104)</item>
+        <item>Human Rights (NCBA 110)</item>
+        <item>Intellectual Property Rights (NCBB 110)</item>
+        <item>Psychology (NCBA 111)</item>
+        <item>English Litrature (NCBA 117)</item>
+        <item>Gandhian Studies (NCBA 118)</item>
+    </string-array>
+    <string-array name="ASET_Chemistry">
+        <item>Select Course</item>
+        <item>Biotechnology Management (NCBA 101)</item>
+        <item>Conservation Biology (NCBB 101)</item>
+        <item>Disaster Management (NCBC 101)</item>
+        <item>Environmental Law (NCBD 101)</item>
+        <item>Environmental Management (NCBE 101)</item>
+        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Management Mantra (NCBA 100)</item>
+        <item>Managing Human Resource (NCBB 100)</item>
+        <item>Marketers Tool-kit (NCBC 100)</item>
+        <item>Wealth Management (NCBD 100)</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+        <item>Consumer Electronics (NCBF 102)</item>
+        <item>Embedded Systems (NCBG 102)</item>
+        <item>Instrumentation Engineering (NCBH 102)</item>
+        <item>Signal Processing (NCBI 102)</item>
+        <item>Wireless Communication (NCBJ 102)</item>
+        <item>Mechanical Engineering (NCBK 102)</item>
+        <item>Renewable Energy (NCBL 102)</item>
+        <item>Robotics</item>
+        <item>Animation (NCBA 103)</item>
+        <item>Audio-Visual Communocation (NCBB 103)</item>
+        <item>Media Management (NCBC 103)</item>
+        <item>Print media (NCBD 103)</item>
+        <item>Fashion Management (NCBA 104)</item>
+        <item>Human Rights (NCBA 110)</item>
+        <item>Intellectual Property Rights (NCBB 110)</item>
+        <item>Psychology (NCBA 111)</item>
+        <item>English Litrature (NCBA 117)</item>
+        <item>Gandhian Studies (NCBA 118)</item>
+    </string-array>
+    <string-array name="Amity_School_Communication">
+        <item>Select Course</item>
+        <item>Biotechnology Management (NCBA 101)</item>
+        <item>Conservation Biology (NCBB 101)</item>
+        <item>Disaster Management (NCBC 101)</item>
+        <item>Environmental Law (NCBD 101)</item>
+        <item>Environmental Management (NCBE 101)</item>
+        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Management Mantra (NCBA 100)</item>
+        <item>Managing Human Resource (NCBB 100)</item>
+        <item>Marketers Tool-kit (NCBC 100)</item>
+        <item>Wealth Management (NCBD 100)</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+        <item>Consumer Electronics (NCBF 102)</item>
+        <item>Embedded Systems (NCBG 102)</item>
+        <item>Instrumentation Engineering (NCBH 102)</item>
+        <item>Signal Processing (NCBI 102)</item>
+        <item>Wireless Communication (NCBJ 102)</item>
+        <item>Mechanical Engineering (NCBK 102)</item>
+        <item>Renewable Energy (NCBL 102)</item>
+        <item>Fashion Management (NCBA 104)</item>
+        <item>Robotics</item>
+        <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
+        <item>Human Rights (NCBA 110)</item>
+        <item>Intellectual Property Rights (NCBB 110)</item>
+        <item>Psychology (NCBA 111)</item>
+        <item>English Litrature (NCBA 117)</item>
+        <item>Gandhian Studies (NCBA 118)</item>
+    </string-array>
+    <string-array name="Amity_fashion">
+        <item>Select Course</item>
+        <item>Biotechnology Management (NCBA 101)</item>
+        <item>Conservation Biology (NCBB 101)</item>
+        <item>Disaster Management (NCBC 101)</item>
+        <item>Environmental Law (NCBD 101)</item>
+        <item>Environmental Management (NCBE 101)</item>
+        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Management Mantra (NCBA 100)</item>
+        <item>Managing Human Resource (NCBB 100)</item>
+        <item>Marketers Tool-kit (NCBC 100)</item>
+        <item>Wealth Management (NCBD 100)</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+        <item>Consumer Electronics (NCBF 102)</item>
+        <item>Embedded Systems (NCBG 102)</item>
+        <item>Instrumentation Engineering (NCBH 102)</item>
+        <item>Signal Processing (NCBI 102)</item>
+        <item>Wireless Communication (NCBJ 102)</item>
+        <item>Mechanical Engineering (NCBK 102)</item>
+        <item>Renewable Energy (NCBL 102)</item>
+        <item>Robotics</item>
+        <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
+        <item>Animation (NCBA 103)</item>
+        <item>Audio-Visual Communocation (NCBB 103)</item>
+        <item>Media Management (NCBC 103)</item>
+        <item>Print media (NCBD 103)</item>
+        <item>Human Rights (NCBA 110)</item>
+        <item>Intellectual Property Rights (NCBB 110)</item>
+        <item>Psychology (NCBA 111)</item>
+        <item>English Litrature (NCBA 117)</item>
+        <item>Gandhian Studies (NCBA 118)</item>
+    </string-array>
+    <string-array name="Amity_Law_School">
+        <item>Select Course</item>
+        <item>Biotechnology Management (NCBA 101)</item>
+        <item>Conservation Biology (NCBB 101)</item>
+        <item>Disaster Management (NCBC 101)</item>
+        <item>Environmental Law (NCBD 101)</item>
+        <item>Environmental Management (NCBE 101)</item>
+        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Management Mantra (NCBA 100)</item>
+        <item>Managing Human Resource (NCBB 100)</item>
+        <item>Marketers Tool-kit (NCBC 100)</item>
+        <item>Wealth Management (NCBD 100)</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+        <item>Consumer Electronics (NCBF 102)</item>
+        <item>Embedded Systems (NCBG 102)</item>
+        <item>Instrumentation Engineering (NCBH 102)</item>
+        <item>Signal Processing (NCBI 102)</item>
+        <item>Wireless Communication (NCBJ 102)</item>
+        <item>Mechanical Engineering (NCBK 102)</item>
+        <item>Renewable Energy (NCBL 102)</item>
+        <item>Robotics</item>
+        <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
+        <item>Animation (NCBA 103)</item>
+        <item>Audio-Visual Communocation (NCBB 103)</item>
+        <item>Media Management (NCBC 103)</item>
+        <item>Print media (NCBD 103)</item>
+        <item>Fashion Management (NCBA 104)</item>
+        <item>Psychology (NCBA 111)</item>
+        <item>English Litrature (NCBA 117)</item>
+        <item>Gandhian Studies (NCBA 118)</item>
+    </string-array>
+    <string-array name="Aibas">
+        <item>Select Course</item>
+        <item>Biotechnology Management (NCBA 101)</item>
+        <item>Conservation Biology (NCBB 101)</item>
+        <item>Disaster Management (NCBC 101)</item>
+        <item>Environmental Law (NCBD 101)</item>
+        <item>Environmental Management (NCBE 101)</item>
+        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Management Mantra (NCBA 100)</item>
+        <item>Managing Human Resource (NCBB 100)</item>
+        <item>Marketers Tool-kit (NCBC 100)</item>
+        <item>Wealth Management (NCBD 100)</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+        <item>Consumer Electronics (NCBF 102)</item>
+        <item>Embedded Systems (NCBG 102)</item>
+        <item>Instrumentation Engineering (NCBH 102)</item>
+        <item>Signal Processing (NCBI 102)</item>
+        <item>Wireless Communication (NCBJ 102)</item>
+        <item>Mechanical Engineering (NCBK 102)</item>
+        <item>Renewable Energy (NCBL 102)</item>
+        <item>Robotics</item>
+        <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
+        <item>Animation (NCBA 103)</item>
+        <item>Audio-Visual Communocation (NCBB 103)</item>
+        <item>Media Management (NCBC 103)</item>
+        <item>Print media (NCBD 103)</item>
+        <item>Fashion Management (NCBA 104)</item>
+        <item>Human Rights (NCBA 110)</item>
+        <item>Intellectual Property Rights (NCBB 110)</item>
+        <item>English Litrature (NCBA 117)</item>
+        <item>Gandhian Studies (NCBA 118)</item>
+    </string-array>
+    <string-array name="Amity_languages">
+        <item>Select Course</item>
+        <item>Biotechnology Management (NCBA 101)</item>
+        <item>Conservation Biology (NCBB 101)</item>
+        <item>Disaster Management (NCBC 101)</item>
+        <item>Environmental Law (NCBD 101)</item>
+        <item>Environmental Management (NCBE 101)</item>
+        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Management Mantra (NCBA 100)</item>
+        <item>Managing Human Resource (NCBB 100)</item>
+        <item>Marketers Tool-kit (NCBC 100)</item>
+        <item>Wealth Management (NCBD 100)</item>
+        <item>Cloud Computing (NCBA 102)</item>
+        <item>Data Analytics (NCBB 102)</item>
+        <item>Network Security (NCBC 102)</item>
+        <item>Web Technology (NCBD 102)</item>
+        <item>It Skiils for Professionals (NCBQ 102)</item>
+        <item>Consumer Electronics (NCBF 102)</item>
+        <item>Embedded Systems (NCBG 102)</item>
+        <item>Instrumentation Engineering (NCBH 102)</item>
+        <item>Signal Processing (NCBI 102)</item>
+        <item>Wireless Communication (NCBJ 102)</item>
+        <item>Mechanical Engineering (NCBK 102)</item>
+        <item>Renewable Energy (NCBL 102)</item>
+        <item>Robotics</item>
+        <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
+        <item>Animation (NCBA 103)</item>
+        <item>Audio-Visual Communocation (NCBB 103)</item>
+        <item>Media Management (NCBC 103)</item>
+        <item>Print media (NCBD 103)</item>
+        <item>Fashion Management (NCBA 104)</item>
+        <item>Human Rights (NCBA 110)</item>
+        <item>Intellectual Property Rights (NCBB 110)</item>
+        <item>Psychology (NCBA 111)</item>
+        <item>Gandhian Studies (NCBA 118)</item>
+    </string-array>
+    <string-array name="Amity_social_Sciences">
+        <item>Select Course</item>
+        <item>Biotechnology Management (NCBA 101)</item>
+        <item>Conservation Biology (NCBB 101)</item>
+        <item>Disaster Management (NCBC 101)</item>
+        <item>Environmental Law (NCBD 101)</item>
+        <item>Environmental Management (NCBE 101)</item>
+        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Management Mantra (NCBA 100)</item>
+        <item>Managing Human Resource (NCBB 100)</item>
+        <item>Marketers Tool-kit (NCBC 100)</item>
+        <item>Wealth Management (NCBD 100)</item>
         <item>Select Course</item>
         <item>Cloud Computing (NCBA 102)</item>
         <item>Data Analytics (NCBB 102)</item>
         <item>Network Security (NCBC 102)</item>
         <item>Web Technology (NCBD 102)</item>
         <item>It Skiils for Professionals (NCBQ 102)</item>
-    </string-array>
-    <string-array name="ASET_ECE">
-        <item>Select Course</item>
         <item>Consumer Electronics (NCBF 102)</item>
         <item>Embedded Systems (NCBG 102)</item>
         <item>Instrumentation Engineering (NCBH 102)</item>
         <item>Signal Processing (NCBI 102)</item>
         <item>Wireless Communication (NCBJ 102)</item>
-    </string-array>
-    <string-array name="ASET_Mech">
-        <item>Select Course</item>
         <item>Mechanical Engineering (NCBK 102)</item>
         <item>Renewable Energy (NCBL 102)</item>
         <item>Robotics</item>
-    </string-array>
-    <string-array name="ASET_Chemistry">
-        <item>Select Course</item>
         <item>Chemicals in Daily Life: Nutritaion and Adultration</item>
-    </string-array>
-    <string-array name="Amity_School_Communication">
-        <item>Select Course</item>
         <item>Animation (NCBA 103)</item>
         <item>Audio-Visual Communocation (NCBB 103)</item>
         <item>Media Management (NCBC 103)</item>
         <item>Print media (NCBD 103)</item>
-    </string-array>
-    <string-array name="Amity_fashion">
-        <item>Select Course</item>
         <item>Fashion Management (NCBA 104)</item>
-    </string-array>
-    <string-array name="Amity_Law_School">
-        <item>Select Course</item>
         <item>Human Rights (NCBA 110)</item>
         <item>Intellectual Property Rights (NCBB 110)</item>
-    </string-array>
-    <string-array name="Aibas">
-        <item>Select Course</item>
         <item>Psychology (NCBA 111)</item>
-    </string-array>
-    <string-array name="Amity_languages">
-        <item>Select Course</item>
         <item>English Litrature (NCBA 117)</item>
-    </string-array>
-    <string-array name="Amity_social_Sciences">
-        <item>Select Course</item>
-        <item>Gandhian Studies (NCBA 118)</item>
     </string-array>
     <string-array name="CBCS_Common">
         <item>Select Your First Preference For CBCS</item>
@@ -160,7 +505,7 @@
         <item>Disaster Management (NCBC 101)</item>
         <item>Environmental Law (NCBD 101)</item>
         <item>Environmental Management (NCBE 101)</item>
-        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Industrial Environmental Health and Safety (NCBF 101)</item>
         <item>Cloud Computing (NCBA 102)</item>
         <item>Data Analytics (NCBB 102)</item>
         <item>Network Security (NCBC 102)</item>
@@ -196,7 +541,7 @@
         <item>Disaster Management (NCBC 101)</item>
         <item>Environmental Law (NCBD 101)</item>
         <item>Environmental Management (NCBE 101)</item>
-        <item>Industrial, Environmental, Health and Safety (NCBF 101)</item>
+        <item>Industrial Environmental Health and Safety (NCBF 101)</item>
         <item>Cloud Computing (NCBA 102)</item>
         <item>Data Analytics (NCBB 102)</item>
         <item>Network Security (NCBC 102)</item>
@@ -221,6 +566,36 @@
         <item>English Litrature (NCBA 117)</item>
         <item>Gandhian Studies (NCBA 118)</item>
     </string-array>
+    <string-array name="Program">
+        <item>Program</item>
+        <item>BBA</item>
+        <item>B.Com(H)</item>
+        <item>B.A(H)Economics</item>
+        <item>B.Des(Fashion Design)</item>
+        <item>Diploma in Fashion</item>
+        <item>BA(H) History</item>
+        <item>BA(H) Philosophy</item>
+        <item>BA(H) Political Science</item>
+        <item>BA LLb(H)</item>
+        <item>B.com LLB(H)</item>
+        <item>BBA LLb(H) </item>
+        <item>Bachelor of Interior Design</item>
+        <item>B.Arch</item>
+        <item>B.Pharma</item>
+        <item>B.sc(H) Biotechnolgy</item>
+        <item>B.Tech(Biotechnology)</item>
+        <item>B.sc Biology</item>
+        <item>B.Sc+M.Sc Biotech Duel Degree</item>
+        <item>BCA</item>
+        <item>B.Sc(IT)</item>
+        <item>B.Tech(CSE)</item>
+        <item>B.Tech(ECE)</item>
+        <item>B.Tech(IT)</item>
+        <item>B.Tech(ME)</item>
+        <item>B.Tech(Civil)</item>
+        <item>B.A(Journalism and Mass Communication)</item>
+        <item>BA(H) Applied Phychlogy</item>
+    </string-array>
     <string name="info_text_view_content">
     <![CDATA[
     <ul>
@@ -236,4 +611,6 @@
 </string>
 
     <string name="welcome_text">Welcome !</string>
+    <string name="signup">Signup</string>
+    <string name="signup_login">Signup</string>
 </resources>
